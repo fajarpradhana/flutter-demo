@@ -29,7 +29,7 @@ class _MaintenanceScreenState extends State<MaintenanceScreen>{
             child: Container(
               padding: const EdgeInsets.all(20),
               child: const Text(
-                "This screen is on maintenance",
+                "THIS IS MAINTENANCE SCREEN",
                 style: TextStyle(color: Colors.white),
                 textAlign: TextAlign.center,
               ),
