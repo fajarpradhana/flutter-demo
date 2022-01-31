@@ -69,7 +69,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 alignment: Alignment.centerLeft,
                 padding: const EdgeInsets.all(10),
                 child: const Text(
-                  "Wrong credentials entered",
+                  "Wrong credentials",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 10,
