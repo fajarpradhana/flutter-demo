@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 width: 400,
                 alignment: Alignment.center,
                 child: const Text(
-                  "Login to My App",
+                  "My App - Demo",
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 34,
@@ -139,7 +139,8 @@ class _LoginScreenState extends State<LoginScreen> {
               padding: const EdgeInsets.only(top: 20),
               child: RaisedButton(
                   color: _btnColor,
-                  child: const Text("Submit", style: TextStyle(color: Colors.white)),
+                  child: const Text("Submit",
+                      style: TextStyle(color: Colors.white)),
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(30)),
                   onPressed: () {
@@ -150,8 +151,9 @@ class _LoginScreenState extends State<LoginScreen> {
                           passwordController.text == fetchCredentials()[1]) {
                         Navigator.pushAndRemoveUntil(
                           context,
-                          MaterialPageRoute(builder: (context) => const MenuNavigation()),
-                              (Route<dynamic> route) => false,
+                          MaterialPageRoute(
+                              builder: (context) => const MenuNavigation()),
+                          (Route<dynamic> route) => false,
                         );
                       } else {
                         setState(() {
