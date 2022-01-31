@@ -8,7 +8,7 @@ class MaintenanceScreen extends StatefulWidget {
   _MaintenanceScreenState createState() => _MaintenanceScreenState();
 }
 
-class _MaintenanceScreenState extends State<MaintenanceScreen>{
+class _MaintenanceScreenState extends State<MaintenanceScreen> {
   int menuIndex = 0;
 
   @override
@@ -29,7 +29,7 @@ class _MaintenanceScreenState extends State<MaintenanceScreen>{
             child: Container(
               padding: const EdgeInsets.all(20),
               child: const Text(
-                "THIS IS MAINTENANCE SCREEN",
+                "Under maintenance",
                 style: TextStyle(color: Colors.white),
                 textAlign: TextAlign.center,
               ),
