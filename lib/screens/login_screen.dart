@@ -18,8 +18,8 @@ class _LoginScreenState extends State<LoginScreen> {
   final _btnColor = const Color.fromRGBO(242, 35, 65, 1);
 
   fetchCredentials() {
-    var username = "a";
-    var password = "a";
+    var username = "admin";
+    var password = "admin";
     return [username, password];
   }
 
